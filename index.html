@@ -1,28 +1,29 @@
+<!-- ===============================
+ Dify チャットボット無効化（安全措置）
+ ・embed.min.js を読み込まない
+ ・トークンは実行されない
+ ・GitHub Pages 上で完全停止
+=============================== -->
+
+<!--
 <script>
- window.difyChatbotConfig = {
-  token: 'ro5A4y3VGhAeIZpN',
-  inputs: {
-    // You can define the inputs from the Start node here
-    // key is the variable name
-    // e.g.
-    // name: "NAME"
-  },
-  systemVariables: {
-    // user_id: 'YOU CAN DEFINE USER ID HERE',
-    // conversation_id: 'YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID',
-  },
-  userVariables: {
-    // avatar_url: 'YOU CAN DEFINE USER AVATAR URL HERE',
-    // name: 'YOU CAN DEFINE USER NAME HERE',
-  },
- }
+  window.difyChatbotConfig = {
+    token: 'ro5A4y3VGhAeIZpN',
+    inputs: {},
+    systemVariables: {},
+    userVariables: {}
+  }
 </script>
+
 <script
- src="https://udify.app/embed.min.js"
- id="ro5A4y3VGhAeIZpN"
- defer>
+  src="https://udify.app/embed.min.js"
+  id="ro5A4y3VGhAeIZpN"
+  defer>
 </script>
+-->
+
 <style>
+  /* Dify用スタイル（現在は未使用・将来再開用に保持） */
   #dify-chatbot-bubble-button {
     background-color: #1C64F2 !important;
   }
